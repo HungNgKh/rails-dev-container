@@ -2,4 +2,7 @@ services:
   redis:
     image: "redis:latest"
     port: "6379:6379"
-    
+  rabbidmq:
+    container_name: "rabbid-MQ"
+    image: "rabbitmq:3.9.22-management-alpine"
+    ports: "5672:5672"
