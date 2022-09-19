@@ -6,7 +6,11 @@ A containerized environment for rails core development
 ### Memcache
 - version:
 ### Redis
-- version: 
+- version: 7.0.4
+- OS: Linux/amd64
+### RabbitMQ
+- version: 3.9.22
+- OS: Linux/amd64
 ### Postgresql
 - version:
 ### Mysql
