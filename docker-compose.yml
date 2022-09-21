@@ -7,3 +7,7 @@ services:
     container_name: "rabbitMQ"
     image: "rabbitmq:3.9.22-management-alpine"
     ports: "5672:5672"
+  memcache:
+    container_name: "memcache"
+    image: "memcached:1.6.17-bullseye"
+    ports: "11211:11211"
