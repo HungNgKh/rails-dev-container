@@ -1,8 +1,9 @@
 services:
   redis:
+    container_name: "redis"
     image: "redis:7.0.4-bullseye"
     port: "6379:6379"
-  rabbidmq:
-    container_name: "rabbid-MQ"
+  rabbitmq:
+    container_name: "rabbitMQ"
     image: "rabbitmq:3.9.22-management-alpine"
     ports: "5672:5672"
