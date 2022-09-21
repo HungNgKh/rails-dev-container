@@ -4,7 +4,8 @@ A containerized environment for rails core development
 ## Components
 
 ### Memcache
-- version:
+- version: 1.6.17
+- OS: Linux/amd64
 ### Redis
 - version: 7.0.4
 - OS: Linux/amd64
