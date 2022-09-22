@@ -2,12 +2,15 @@ services:
   redis:
     container_name: "redis"
     image: "redis:7.0.4-bullseye"
-    port: "6379:6379"
+    ports: 
+      - "6379:6379"
   rabbitmq:
     container_name: "rabbitMQ"
     image: "rabbitmq:3.9.22-management-alpine"
-    ports: "5672:5672"
+    ports: 
+      - "5672:5672"
   memcache:
     container_name: "memcache"
     image: "memcached:1.6.17-bullseye"
-    ports: "11211:11211"
+    ports: 
+      - "11211:11211"
